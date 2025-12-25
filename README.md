@@ -43,8 +43,9 @@ All custom images are:
 
 ## Repository Structure
 
-
-
+<p align="center">
+  <img src="image/structure.png" width="600">
+</p>
 
 ---
 
