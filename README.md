@@ -115,16 +115,15 @@ For each image, the notebook displays:
 - Predicted class name
 - Confidence percentage
 
-**Example Output:**
+---
+## Model Observations & Analysis
 
+- **High confidence (≈99–100%)** is observed for images closely matching the FashionMNIST training distribution, particularly for classes such as **Bag** and **Dress**.
 
-## Real-World Prediction
-The trained CNN is used to classify **custom smartphone images**.
+- Some correctly classified samples (e.g., **Pullover**, **Trouser**) show **moderate confidence (≈35%–85%)**, indicating visual ambiguity due to similar textures, shapes, or lighting variations.
 
-For each image, the notebook displays:
-- The image
-- Predicted class name
-- Confidence percentage
+- The model is sensitive to **input quality**, where lower contrast, blurred edges, or non-uniform backgrounds lead to reduced confidence scores.
 
-**Example:**
+- Despite being trained exclusively on the FashionMNIST dataset, the CNN demonstrates **reasonable generalization** to real-world smartphone images after proper preprocessing.
 
+- Visually similar classes (e.g., **Pullover**, **Coat**, **Dress**) exhibit partial feature overlap, resulting in lower confidence for some predictions.
