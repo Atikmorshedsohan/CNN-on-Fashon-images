@@ -97,12 +97,12 @@ All custom images are:
 
 ### ✔ Real-World Predictions
 <p align="center">
-  <img src="image/Prediction.png" width="700">
+  <img src="image/Predection.png" width="700">
 </p>
 
 ### ✔ Visual Error Analysis (Wrong Predictions)
 <p align="center">
-  <img src="image/wrong_prediction.png" width="700">
+  <img src="image/worng_prediction.png" width="700">
 </p>
 
 ---
