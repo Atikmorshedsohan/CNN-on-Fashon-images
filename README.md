@@ -12,12 +12,21 @@ The complete workflow is designed to be **fully reproducible** using **Google Co
 
 ### 1. Standard Dataset
 - **Name:** FashionMNIST  
+- **Source:** `keras.datasets.fashion_mnist`  
+- **Image Size:** 28 × 28 pixels  
+- **Channels:** Grayscale (1 channel)  
+- **Number of Classes:** 10  
+
+
+### 1. Standard Dataset
+- **Name:** FashionMNIST  
 - **Source:** `keras.datasets.fashion_mnist`
 - **Image Size:** 28 × 28 pixels
 - **Channels:** Grayscale (1 channel)
 - **Number of Classes:** 10
 
 ### Class Labels
+
 
 ### 2. Custom Real-World Images
 - 10 images captured using a **smartphone**
@@ -35,9 +44,11 @@ All custom images are:
 ## Repository Structure
 
 
+
+
 ---
 
-## Data Preprocessing
+## ⚙️ Data Preprocessing
 - Pixel values normalized to **[0, 1]**
 - Reshaped from `(28, 28)` → `(1, 28, 28)`
 - Converted to PyTorch tensors
@@ -45,7 +56,7 @@ All custom images are:
 
 ---
 
-## CNN Architecture
+## 🏗️ CNN Architecture
 
 | Layer Type | Description |
 |-----------|-------------|
@@ -64,29 +75,48 @@ All custom images are:
 
 ---
 
-## Model Training
-- Batch size: 64
-- Epochs: 5
-- Training and validation accuracy tracked
-- Loss and accuracy visualized per epoch
+## 🚀 Model Training
+- Batch size: 64  
+- Epochs: 5  
+- Training and validation accuracy tracked  
+- Loss and accuracy visualized per epoch  
 
 ---
 
-## Evaluation & Results
+## 📊 Evaluation & Results
 
-### ✔ Training History
-- Loss vs Epochs
-- Accuracy vs Epochs
+### ✔ Training Loss Curve
+<p align="center">
+  <img src="images/loss_curv.png" width="600">
+</p>
 
 ### ✔ Confusion Matrix
-- Class-wise performance visualization
-- Feature (class) names used instead of numeric labels
+<p align="center">
+  <img src="images/confusion_matrix.png" width="600">
+</p>
 
-### ✔ Visual Error Analysis
-- Displays randomly selected misclassified test images
-- Shows true label vs predicted label
+### ✔ Real-World Predictions
+<p align="center">
+  <img src="images/Prediction.png" width="700">
+</p>
+
+### ✔ Visual Error Analysis (Wrong Predictions)
+<p align="center">
+  <img src="images/wrong_prediction.png" width="700">
+</p>
 
 ---
+
+## 📸 Real-World Prediction
+The trained CNN is used to classify **custom smartphone images**.
+
+For each image, the notebook displays:
+- The image
+- Predicted class name
+- Confidence percentage
+
+**Example Output:**
+
 
 ## Real-World Prediction
 The trained CNN is used to classify **custom smartphone images**.
