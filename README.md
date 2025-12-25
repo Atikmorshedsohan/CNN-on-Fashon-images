@@ -87,7 +87,7 @@ All custom images are:
 
 ### ✔ Training Loss Curve
 <p align="center">
-  <img src="images/loss_curv.png" width="600">
+  <img src="image/loss_curv.png" width="600">
 </p>
 
 ### ✔ Confusion Matrix
