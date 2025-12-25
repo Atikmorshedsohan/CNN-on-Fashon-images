@@ -48,7 +48,7 @@ All custom images are:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 - Pixel values normalized to **[0, 1]**
 - Reshaped from `(28, 28)` → `(1, 28, 28)`
 - Converted to PyTorch tensors
@@ -56,7 +56,7 @@ All custom images are:
 
 ---
 
-## 🏗️ CNN Architecture
+## CNN Architecture
 
 | Layer Type | Description |
 |-----------|-------------|
@@ -75,7 +75,7 @@ All custom images are:
 
 ---
 
-## 🚀 Model Training
+## Model Training
 - Batch size: 64  
 - Epochs: 5  
 - Training and validation accuracy tracked  
@@ -83,7 +83,7 @@ All custom images are:
 
 ---
 
-## 📊 Evaluation & Results
+## Evaluation & Results
 
 ### ✔ Training Loss Curve
 <p align="center">
@@ -92,22 +92,22 @@ All custom images are:
 
 ### ✔ Confusion Matrix
 <p align="center">
-  <img src="images/confusion_matrix.png" width="600">
+  <img src="image/confusion_matrix.png" width="600">
 </p>
 
 ### ✔ Real-World Predictions
 <p align="center">
-  <img src="images/Prediction.png" width="700">
+  <img src="image/Prediction.png" width="700">
 </p>
 
 ### ✔ Visual Error Analysis (Wrong Predictions)
 <p align="center">
-  <img src="images/wrong_prediction.png" width="700">
+  <img src="image/wrong_prediction.png" width="700">
 </p>
 
 ---
 
-## 📸 Real-World Prediction
+## Real-World Prediction
 The trained CNN is used to classify **custom smartphone images**.
 
 For each image, the notebook displays:
